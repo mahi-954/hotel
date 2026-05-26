@@ -1,0 +1,27 @@
+header .nav-link:hover{
+    background-color: rgba(81, 67, 217, 0.1);
+    color: #5143d9;
+}
+.btn-booking{
+    color: #5143d9;
+    background-color: rgba(81, 67, 217, 0.1);
+}
+#search-btn{
+    background-color: #5143d9;
+    color: white;
+    width: 58px;
+    height: 58px;
+}
+#bookingform i.fa-solid{
+    color: #747579;
+}
+#bookingform button i.fa-solid{
+    color: white;
+}
+#bookingform{
+    margin-top: -95px;
+}
+#bookingform label{
+    top: -15px;
+    left: 10px;
+}

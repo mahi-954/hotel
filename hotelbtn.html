@@ -1,0 +1,119 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<e>, initial-scale=1.0">
+    <title>Booking</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="hotelbtn.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+   <header>
+   <nav class="navbar navbar-expand-sm navbar-light bg-light">
+   <div class="container">
+    <a class="navbar-brand" href="#">
+        <img src="Link ⏵ logo.svg.png" alt=""/>
+    </a>
+    <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    ></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" href="#" aria-current="page">
+                     <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-hotel"></i>Hotel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-plane"></i>Flight</a>
+           </li> 
+           <li class="nav-item">
+               <a class="nav-link" href="#"><i class="fa-solid fa-earth-americas"></i>Tour</a>
+           </li> 
+           <li class="nav-item">
+               <a class="nav-link" href="#"><i class="fa-solid fa-car"></i>Cab</a>
+           </li> 
+
+
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="dropdownId"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Dropdown</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+   </div>
+   </nav>
+   </header>
+   <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="fw-bold">
+                        Find the top<br>Hotels nearby.
+                    </h1>
+                    <p>
+                        We bring you not only a stay option, but an experience in your budget to enjoy the luxury.
+                    </p>
+                    <a href="#" class="btn-booking text-decoration-none p-4 fs-5 fw-bold rounded-3">Discover now</a>
+                    <a href="#" class="btn fs-5"> <img src="watchstory.jpg">Watch our story</a>
+                </div>
+                <div class="col-6">
+                    <img src="introimg.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <b>Check Availability</b>
+                <div class="col-10">
+                    <form id="bookingform" class="bg-white shadow p-4 rounded-4 d-flex justify-content-between">
+                        <div class="d-flex align-items-center flex-grow-1">
+                            <i class="fa-solid fs-3 me-2 fa-location-dot"></i>
+                         <div class="flex-grow-1 me-3 position-relative">
+                            <label for="" class="position-absolute d-block bg-white px-1">Location</label>
+                            <input type="text" class="form-control" placeholder="Select Location">
+                    </div>
+                    <div class="d-flex align-items-center flex-grow-1">
+                        <i class="fa-solid fs-3 me-2 fa-calender"></i>
+                            <div class="flex-grow-1 me-3 position-relative">
+                            <label for="" class="position-absolute d-block bg-white px-1">Checkin-out</label>
+                            <input type="time" class="form-control" placeholder="Select Location">
+                    </div>
+                    <div class="d-flex align-items-center flex-grow-1">
+                        <i class="fa-solid fs-3 me-2 fa-person"></i>                   
+                        <div class="flex-grow-1 me-3 position-relative">
+                            <label for="" class="position-absolute d-block bg-white px-1">Guests and Rooms</label>
+                            <input type="number" class="form-control" placeholder="Select Location">
+                    </div>
+                </div>
+                <button id="search-btn" class="btn rounded-circle">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                </form>
+                </div>
+            </div>
+        </div>
+        </div>
+   </section>
+   <script src="https://cdn.jscriptsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
